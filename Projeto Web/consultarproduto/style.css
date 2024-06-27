@@ -1,0 +1,229 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #c3d6ef;
+    margin: 0;
+    padding: 0;
+    overflow-y: hidden;
+}
+
+.nav-bar {
+    background-color: #4a48c5;
+    height: 115px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 150px;
+}
+
+.div-logo-nav-bar img {
+    height: 100px;
+    cursor: pointer;
+}
+
+.div-logo-nav-bar {
+    padding-left: 20px;
+}
+
+.div-btn-navbar {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.btn-navbar {
+    font-size: 18px;
+    background-color: transparent;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.btn-logout {
+    font-size: 30px;
+    border: none;
+    background: transparent;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.div-produto-consultado {
+    z-index: 999;
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    background: #7694bb;
+    width: 800px;
+    border-radius: 5px;
+    height: 400px;
+    transform: translateY(15%);
+}
+
+.div-form-consulta {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    background: #7694bb;
+    width: 700px;
+    border-radius: 5px;
+    height: 250px;
+    top: 10%;
+    transform: translateY(52.5%);
+}
+
+.form-consulta-produto {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.input-x {
+    font-size: 24px;
+    border-radius: 5px;
+    border: none;
+    width: 70%;
+}
+
+.input-x-consultar {
+    font-size: 24px;
+    width: 35%;
+    border-radius: 5px;
+    border: none;
+}
+
+.div-input {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+}
+
+.div-input-consulta {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+}
+
+.div-input label {
+    font-size: 27px;
+    width: 30%;
+    font-weight: bold;
+}
+
+.label-consulta {
+    font-size: 27px;
+    font-weight: bold;
+}
+
+.div-footer-consultar {
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+    justify-content: center;
+}
+
+.div-consulta {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.title-consultar {
+    margin: 0 auto;
+}
+
+.div-produto-main {
+    display: flex;
+    flex-direction: column;
+    background-color: #7694bb;
+    width: 1300px;
+    height: 480px;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.cliente-informacoes {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 70px;
+    align-items: center;
+    width: 100%;
+}
+
+.produtos-dados {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    gap: 20px;
+}
+
+.inputs-consulta {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    gap: 15px;
+}
+
+.div-footer {
+    z-index: 555;
+    gap: 40px;
+    display: flex;
+    justify-content: center;
+    top: 50%;
+    transform: translateY(22%);
+    height: 50px;
+}
+
+.inputs-consulta label {
+    font-size: 27px;
+    width: 30%;
+    font-weight: bold;
+}
+
+.btn-save {
+    font-size: 30px;
+    border-radius: 5px;
+    padding: 5px;
+    border: none;
+    width: 200px;
+    background: #61e968;
+    color: white;
+}
+
+.btn-save:hover {
+    cursor: pointer;
+    background: #44e44c;
+}
+
+.btn-back {
+    font-size: 30px;
+    border-radius: 5px;
+    padding: 5px;
+    border: none;
+    width: 200px;
+    background: #4d4be4;
+    color: white;
+}
+
+.btn-back:hover {
+    cursor: pointer;
+    background: #403ed3;
+}
+
+.div-footer-consultar {
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+    justify-content: center;
+}

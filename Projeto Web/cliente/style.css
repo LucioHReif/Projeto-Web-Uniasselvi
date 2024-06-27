@@ -1,0 +1,157 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #c3d6ef;
+    margin: 0;
+    padding: 0;
+    overflow-y: hidden;
+}
+
+.div-cd-cliente {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 900px;
+    margin: 0 auto;
+    position: relative;
+    top: 50%;
+    height: 400px;
+    border-radius: 5px;
+    transform: translateY(-20%);
+    background-color: #7694bb;
+    gap: 40px;
+}
+
+.div-pai {
+    display: flex;
+    flex-direction: column;
+}
+
+.div-titulo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 50%;
+    transform: translateY(45%);
+    z-index: 999;
+    flex-direction: column;
+    gap: -8px;
+}
+
+h1 {
+    color: black;
+    font-size: 56px;
+}
+
+.div-inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 25px;
+}
+
+.input-x {
+    font-size: 24px;
+    width: 375px;
+    border-radius: 5px;
+    border: none;
+}
+
+.input-x::placeholder {
+    padding-left: 10px;
+}
+
+i {
+    margin-right: 15px;
+}
+
+.div-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    z-index: 1;
+}
+
+.div-footer {
+    z-index: 555;
+    gap: 40px;
+    display: flex;
+    justify-content: center;
+    top: 50%;
+    transform: translateY(-320%);
+    height: 50px;
+}
+
+.btn-save {
+    font-size: 30px;
+    border-radius: 5px;
+    padding: 5px;
+    border: none;
+    width: 200px;
+    background: #61e968;
+    color: white;
+}
+
+.btn-save:hover {
+    cursor: pointer;
+    background: #44e44c;
+}
+
+.btn-back {
+    font-size: 30px;
+    border-radius: 5px;
+    padding: 5px;
+    border: none;
+    width: 200px;
+    background: #4d4be4;
+    color: white;
+}
+
+.btn-back:hover {
+    cursor: pointer;
+    background: #403ed3;
+}
+
+.nav-bar {
+    background-color: #4a48c5;
+    height: 115px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 150px;
+}
+
+.div-logo-nav-bar img {
+    height: 100px;
+}
+
+.div-logo-nav-bar {
+    padding-left: 20px;
+    cursor: pointer;
+}
+
+.div-btn-navbar {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.btn-navbar {
+    font-size: 18px;
+    background-color: transparent;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.btn-logout {
+    font-size: 30px;
+    border: none;
+    background: transparent;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
